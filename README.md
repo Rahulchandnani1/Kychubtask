@@ -5,6 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm i` 
+to install all the dependencies.
+Then run the below command to start the app.
 
 ### `npm start`
 
@@ -13,6 +16,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### Steps to interact:
+1 First user comes on product page.
+2 Onclick of Product details in sidebar user goes to product page and on Compare products it goes to compare page.
+3 On click of compare user move to compare page and oclick of add more modal will open and user can select product to compare.
+4 User can't select more than 4 products.
+5 User can remove product on click of remove button present below for particular product.
+6 User can go back to product page on click of "back to product page" button but 2 product needs to be present otherwise user can go by sidebar button.
+7 On click of toggle mode button sidebar and navbar color changes.
+8 Table is created using Ant design
+9 Pagination is also implemented and navbar is fixed.
+10 Notification is also implemented which show on compare button click and remove button.
+11 2-way binding is also done.
+
+
 
 ### `npm test`
 
