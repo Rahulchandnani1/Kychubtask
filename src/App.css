@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  --background-color: #ffffff !important;
+  --text-color: #000000 !important;
+  --button-background: #1890ff !important;
+  --button-text: #ffffff !important;
+}
+
+[data-theme='dark'] {
+  --background-color: #1c1c1c !important;
+  --text-color: #ffffff !important;
+  --button-background: #0d6efd !important;
+  --button-text: #ffffff !important;
+}
+
+body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+}
+
+button {
+  background-color: var(--button-background) !important;
+  color: var(--button-text) !important;
+}
+
+.navbar,
+.sidebar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-style: italic;
+  width: 100px;
+  height: 40px;
+  background-color: blueviolet;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 2px solid black;
+ 
+}
+
+.ant-layout-sider {
+  background-color: #ffffff !important;
+}
+
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  padding-top: 20px;
+  width: 200px;
+  overflow-y: auto;
+}
+
+
+.content {
+  padding-top: 60px;
+  color: #000;
+}
+
+.text {
+  margin-top: 80px;
+  color: #000;
+}
